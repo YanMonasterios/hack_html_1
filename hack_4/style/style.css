@@ -1,0 +1,113 @@
+:root{
+    --bg-color: #B88940; 
+    --title1: "Ruda", sans-serif;
+    --title2: "Catamaran" sans-serif;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.prueba{
+    font-family: var(--title1) ;
+    text-align: center;
+}
+
+.sale{
+    font-family: var(--title1);
+    color: #B88940;
+    /* font-weight: 800; */
+    font-size:3em;
+    transform: scale(3); 
+}
+
+.lorem {
+    font-family:var(--title2);
+}
+/*  -------------------------------------- */
+.contain{
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    position: relative;
+    z-index: 1;
+}
+
+.franjas{
+    width:  95%;
+    height: 50px;
+    background-color:#FFBD59;
+    margin-top: 8%;
+}
+
+.franjas1{
+    width:  95%;
+    height: 50px;
+    background-color:#FFBD59;
+    margin-top: 2%;
+}
+
+.franjas2{
+    width:  95%;
+    height: 50px;
+    background-color:#FFBD59;
+    margin-top: 2%;
+}
+
+.franjas3{
+    width:  95%;
+    height: 50px;
+    background-color:#FFBD59;
+    margin-top: 2%;
+}
+/* -------------------------------------- */
+
+.images{
+display: flex;
+justify-content: space-around;
+position: relative;
+z-index: 2;
+bottom: 280px;
+
+}
+
+.img-container {
+    text-align: center; 
+    
+    
+}
+
+.img-container p {
+    font-family: var(--title2);
+    font-weight: 400;
+}
+
+.img {
+width: 60%;
+height: 85%;
+}
+
+
+/* ------------------------------------------ */
+
+.end{
+    display: flex;
+    justify-content: center;
+}
+
+.fashion{
+    text-align: center;
+}
+
+.your{
+    font-family: var(--title1);
+    color: #B88940;
+    /* font-weight: 800; */
+    font-size:2em;
+    transform: scale(2); 
+}
+
+.ipsum {
+    font-family: var(--title1)
+}

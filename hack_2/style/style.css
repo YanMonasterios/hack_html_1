@@ -1,0 +1,66 @@
+:root{
+    --bg-blue: #93B5C9;
+    --bg-wine: #AB2849;
+}
+
+
+ .container {
+    width:  100%;
+    height: 100%;
+  }
+  
+
+
+.line1{
+    width:  100%;
+    height: 150px;
+    background-color: var(--bg-blue);
+}
+
+.line2{
+    width:  100%;
+    height: 200px;
+    background-color: var(--bg-wine);
+}
+
+.line3{
+    width:  70%;
+    height: 200px;
+    background-color: var(--bg-wine);
+    margin-top: 30px;
+    float: left;
+}
+
+.line4{
+    width:  70%;
+    height: 200px;
+    background-color: var(--bg-wine);
+    margin-top: 30px;
+    float: left;
+}
+
+.line5{
+    width:  70%;
+    height: 200px;
+    background-color: var(--bg-wine);
+    margin-top: 30px;
+    float: left;
+}
+
+.line6{
+    width:  70%;
+    height: 200px;
+    background-color: var(--bg-wine);
+    margin-top: 30px;
+    float: left;
+}
+
+.line7{
+    width:  80%;
+    height: 200px;
+    background-color: var(--bg-wine);
+    margin-top: 30px;
+    float: left;
+    margin-left: 150px;
+    
+}
